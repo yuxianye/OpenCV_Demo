@@ -5,6 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:OpenCV_Demo"
         mc:Ignorable="d"
+        WindowState="Maximized"
         Title="HoughCircles" Height="450" Width="800">
     <Grid>
         <Grid.ColumnDefinitions>
@@ -12,9 +13,11 @@
             <ColumnDefinition></ColumnDefinition>
         </Grid.ColumnDefinitions>
         
-        <Button Content="Button" HorizontalAlignment="Left" Height="19" Margin="361,383,0,0" VerticalAlignment="Top" Width="72" Click="Button_Click"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="19" Margin="289,405,0,0" VerticalAlignment="Top" Width="72" Click="Button_Click"/>
+       
         <Image x:Name="ImageSource" HorizontalAlignment="Left" Height="326" Margin="38,26,0,0" VerticalAlignment="Top" Width="251" Source="HoughCircles.png"/>
         <Image x:Name="ImageNew" Grid.Column="1" HorizontalAlignment="Center"  Margin="0,0,0,0" VerticalAlignment="Center"  />
+        <Label  x:Name="labelCount" Content="數量：" HorizontalAlignment="Left" Margin="93,414,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>
