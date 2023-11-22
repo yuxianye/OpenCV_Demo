@@ -1,0 +1,20 @@
+﻿<Window x:Class="OpenCV_Demo.HoughCircles"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OpenCV_Demo"
+        mc:Ignorable="d"
+        Title="HoughCircles" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        
+        <Button Content="Button" HorizontalAlignment="Left" Height="19" Margin="361,383,0,0" VerticalAlignment="Top" Width="72" Click="Button_Click"/>
+        <Image x:Name="ImageSource" HorizontalAlignment="Left" Height="326" Margin="38,26,0,0" VerticalAlignment="Top" Width="251" Source="HoughCircles.png"/>
+        <Image x:Name="ImageNew" Grid.Column="1" HorizontalAlignment="Center"  Margin="0,0,0,0" VerticalAlignment="Center"  />
+
+    </Grid>
+</Window>
