@@ -13,5 +13,6 @@ namespace OpenCV_Demo
     /// </summary>
     public partial class App : Application
     {
+
     }
 }
