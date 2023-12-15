@@ -4,6 +4,8 @@
              xmlns:local="clr-namespace:OpenCV_Demo"
              StartupUri="HoughCircles.xaml">
     <Application.Resources>
-         
+        <!--StartupUri="MainWindow.xaml"-->
+        <!--StartupUri="HoughCircles.xaml"-->
+
     </Application.Resources>
 </Application>

@@ -30,8 +30,8 @@ namespace OpenCV_Demo
         private void Button_Click(object sender, RoutedEventArgs e)
         {
 
-            // HoughCircles_water();
-            HoughCircles_mucai();
+            HoughCircles_water();
+            // HoughCircles_mucai();
 
 
         }
